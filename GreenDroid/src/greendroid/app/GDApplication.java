@@ -33,7 +33,7 @@ import android.content.Intent;
  * 
  * @author Cyril Mottier
  */
-public class GDApplication extends Application {
+public class GDApplication extends com.activeandroid.Application {
 
     /**
      * Used for receiving low memory system notification. You should definitely
