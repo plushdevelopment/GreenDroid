@@ -16,6 +16,7 @@
 package com.cyrilmottier.android.gdcatalog.widget;
 
 import greendroid.widget.item.Item;
+import greendroid.widget.item.LongTextItem;
 import greendroid.widget.itemview.ItemView;
 import android.content.Context;
 import android.text.TextUtils;
@@ -58,5 +59,10 @@ public class HeadedTextItemView extends LinearLayout implements ItemView {
 
         mTextView.setText(item.text);
     }
+
+    @Override
+	public Class<? extends Item> getItemClass() {
+		return HeadedTextItem.class;
+	}
 
 }
