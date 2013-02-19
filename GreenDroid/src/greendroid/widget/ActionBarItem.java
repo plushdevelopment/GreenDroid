@@ -189,6 +189,13 @@ public abstract class ActionBarItem {
         Trashcan,
         
         /**
+         * A ruler. May be used for a "delete" action.
+         * 
+         * @see R.drawable#ruler
+         */
+        Ruler,
+        
+        /**
          * An eye. May be used for a "preview" action.
          * 
          * @see R.drawable#gd_action_bar_eye
@@ -426,6 +433,11 @@ public abstract class ActionBarItem {
             case Trashcan:
                 drawableId = R.drawable.gd_action_bar_trashcan;
                 descriptionId = R.string.gd_trashcan;
+                break;
+                
+            case Ruler:
+                drawableId = R.drawable.ruler;
+                descriptionId = R.string.gd_ruler;
                 break;
 
             case Eye:

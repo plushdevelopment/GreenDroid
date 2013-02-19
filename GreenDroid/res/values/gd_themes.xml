@@ -83,7 +83,7 @@
 		<item name="gdActionBarHomeDrawable">@null</item>
 		<item name="gdActionBarItemColorNormal">@android:color/white</item>
 		<item name="gdActionBarItemColorAlt">@android:color/black</item>
-		<item name="gdActionBarMaxItems">3</item>
+		<item name="gdActionBarMaxItems">5</item>
 		<item name="gdActionBarColorstripBackground">@drawable/gd_action_bar_colorstrip</item>
 		<item name="gdActionBarColorstripForeground">@drawable/gd_action_bar_colorstrip_shadow</item>
 		<item name="gdActionBarColorstripVisibility">visible</item>
@@ -184,7 +184,7 @@
 		<item name="gdActionBarHomeDrawable">@null</item>
 		<item name="gdActionBarItemColorNormal">@android:color/white</item>
 		<item name="gdActionBarItemColorAlt">@android:color/black</item>
-		<item name="gdActionBarMaxItems">3</item>
+		<item name="gdActionBarMaxItems">5</item>
 		<item name="gdActionBarColorstripBackground">@drawable/gd_action_bar_colorstrip</item>
 		<item name="gdActionBarColorstripForeground">@drawable/gd_action_bar_colorstrip_shadow</item>
 		<item name="gdActionBarColorstripVisibility">visible</item>
